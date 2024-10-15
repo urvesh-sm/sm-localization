@@ -1,0 +1,11 @@
+{
+  "hello": "Hello {name}!",
+  "user_hello": "Hello {user_name}!",
+  "user_hello_date": "Hello {user_name_date}!",
+  "loginButton": "Login",
+  "login.Button": "Login",
+  "discover": {
+    "loginButton": "Login",
+    "login.Button": "Login"
+  }
+}
