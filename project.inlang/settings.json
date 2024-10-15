@@ -1,14 +1,12 @@
 {
   "sourceLanguageTag": "en",
   "languageTags": ["en"],
-  "modules": [
-    "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
-  ],
+  "modules": [],
   "plugin.inlang.json": {
     "variableReferencePattern": ["{", "}"],
-	"pathPattern": {
-		"home": "./resources/{languageTag}/home.json",
-		"sample": "./resources/{languageTag}/sample.json"
-	}
-}
+    "pathPattern": {
+      "home": "./resources/{languageTag}/home.json",
+      "sample": "./resources/{languageTag}/sample.json"
+    }
+  }
 }
