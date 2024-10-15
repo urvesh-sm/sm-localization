@@ -1,4 +1,7 @@
 {
 	"hello": "Hello {name}!",
-	"loginButton": "Login"
+    "user_hello": "Hello {user_name}!",
+    "user_hello_date": "Hello {user_name_date}!",
+	"loginButton": "Login",
+    "login.Button": "Login"
 }
