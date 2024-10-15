@@ -1,8 +1,8 @@
 {
 	"home": {
-		"hello": "No {name}!",
+		"hello": "Helo No {name}!",
 		"user_hello": "Hello {user_name}!",
-		"user_hello_date": "Hello {user_name_date}!",
+		"user_hello_date": "Hello {user_name_date}! Okay us{user_name_date}",
 		"loginButton": "Login"
 	},
 	"login": {
