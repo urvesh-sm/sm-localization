@@ -1,4 +1,4 @@
 {
 	"sample": "Hello {name}!",
-    "sample_2": "Hello {user_name}!"
+	"sample_2": "Hello {user_name}!"
 }
