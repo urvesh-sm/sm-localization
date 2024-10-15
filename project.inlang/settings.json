@@ -6,7 +6,7 @@
   ],
   "plugin.inlang.i18next": {
     "variableReferencePattern": ["{", "}"],
-    "pathPattern": "./resources/{languageTag}.json",
+    "pathPattern": "./resources/{languageTag}.json"
   },
   "plugin.inlang.json": {
 	"pathPattern": {
