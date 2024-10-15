@@ -5,6 +5,7 @@
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
   ],
   "plugin.inlang.json": {
+    "variableReferencePattern": ["{", "}"],
 	"pathPattern": {
 		"home": "./resources/{languageTag}/home.json",
 		"sample": "./resources/{languageTag}/sample.json"
