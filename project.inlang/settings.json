@@ -4,10 +4,6 @@
   "modules": [
     "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
   ],
-  "plugin.inlang.i18next": {
-    "variableReferencePattern": ["{", "}"],
-    "pathPattern": "./resources/{languageTag}.json"
-  },
   "plugin.inlang.json": {
 	"pathPattern": {
 		"home": "./resources/{languageTag}/home.json",
