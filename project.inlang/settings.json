@@ -1,8 +1,14 @@
 {
-	"sourceLanguageTag": "en",
-	"languageTags": ["en"],
-	"modules": ["https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js"],
-	"plugin.inlang.json": {
-		"pathPattern": "./resources/{languageTag}.json"
-	}
+  "sourceLanguageTag": "en",
+  "languageTags": ["en"],
+  "modules": [
+    "https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
+    "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
+  ],
+  "plugin.inlang.json": {
+    "pathPattern": "./resources/{languageTag}.json"
+  },
+  "plugin.inlang.i18next": {
+	"variableReferencePattern": ["{", "}"]
+}
 }
