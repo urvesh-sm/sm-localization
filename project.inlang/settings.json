@@ -8,5 +8,27 @@
       "home": "./resources/{languageTag}/home.json",
       "sample": "./resources/{languageTag}/sample.json"
     }
-  }
+  },
+  "namespaces": [
+    {
+      "name": "auth",
+      "description": "Authentication related strings",
+      "match": "^auth\\."
+    },
+    {
+      "name": "login",
+      "description": "login page strings",
+      "match": "^login\\."
+    },
+    {
+      "name": "home",
+      "description": "User home page strings",
+      "match": "^home\\."
+    },
+    {
+      "name": "common",
+      "description": "Common strings used across the app",
+      "match": "^common\\."
+    }
+  ]
 }
